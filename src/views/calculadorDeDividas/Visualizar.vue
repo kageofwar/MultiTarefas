@@ -3,10 +3,10 @@
     <RouterLink to="/" class="btn bg-[#EBD7C6] text-[black]"><img src="../../assets/icons/back-square-svgrepo-com.svg"
         alt="icone voltar" class="h-[4vh]">Voltar para o inicio</RouterLink>
     <div class="flex flex-col items-center justify-center">
-      <div class="flex items-center justify-center mb-[40px]">
+      <div class="flex items-center justify-center mb-[20px]">
         <h1 class="font-[Inter] text-[#EBD7C6] text-[50px]">Historico</h1>
       </div>
-      <p class="text-[#EBD7C6] font-[Inter]">Escreva em somente em <span style="color: #f00;">um</span> ou nos <span style="color: #f00;">dois</span> campos abaixo e clique em <span style="color: #f00;">Pesquisar</span>.</p>
+      <p class="text-[black] font-[Inter]">Escreva em somente em <span style="color: #f00;">um</span> ou nos <span style="color: #f00;">dois</span> campos abaixo e clique em <span style="color: #f00;">Pesquisar</span>.</p>
       <div class="flex space-x-8 m-[20px] text-[#EBD7C6]">
         <label for="nome" class="flex flex-col justify-center items-center">Nome
           <input type="text" placeholder="Pesquisar por nome" class="input input-bordered w-full max-w-xs text-[white] placeholder:text-[#EBD7C6]" />
@@ -15,9 +15,9 @@
           <input type="text" placeholder="Pesquisar por data" class="input input-bordered w-full max-w-xs text-[white] placeholder:text-[#EBD7C6]" />
         </label>
       </div>
-      <button type="submit" class="btn m-[20px] text-[#EBD7C6]">Pesquisar<img src="../../assets/icons/magnifying-glass-svgrepo-com.svg" alt="lupa de pequisar" class="h-[30px]"></button>
+      <button type="submit" class="btn mb-[10px] text-[#EBD7C6]">Pesquisar<img src="../../assets/icons/magnifying-glass-svgrepo-com.svg" alt="lupa de pequisar" class="h-[30px]"></button>
       <span v-if="loading == true" class="loading loading-spinner loading-lg mt-[100px] bg-[black]"></span >
-      <div v-else="loading == false" class="overflow-x-auto h-[50vh] w-[70%]">
+      <div v-else="loading == false" class="overflow-x-auto h-[40vh] w-[70%]">
         <table class="table text-[black] place-content-center">
           <thead>
             <tr class="bg-[black] place-content-center">
@@ -29,27 +29,6 @@
             </tr>
           </thead>
           <tbody class="bg-[#EBD7C6]">
-            <tr v-for="lancamento in lancamentos" :key="lancamento.id" class="hover">
-              <td>{{ lancamento.id }}</td>
-              <td>{{ lancamento.nome_lancamento }}</td>
-              <td>{{ lancamento.valor }}</td>
-              <td>{{ lancamento.data }}</td>
-              <td><button>VISUALIZAR</button></td>
-            </tr>
-            <tr v-for="lancamento in lancamentos" :key="lancamento.id" class="hover">
-              <td>{{ lancamento.id }}</td>
-              <td>{{ lancamento.nome_lancamento }}</td>
-              <td>{{ lancamento.valor }}</td>
-              <td>{{ lancamento.data }}</td>
-              <td><button>VISUALIZAR</button></td>
-            </tr>
-            <tr v-for="lancamento in lancamentos" :key="lancamento.id" class="hover">
-              <td>{{ lancamento.id }}</td>
-              <td>{{ lancamento.nome_lancamento }}</td>
-              <td>{{ lancamento.valor }}</td>
-              <td>{{ lancamento.data }}</td>
-              <td><button>VISUALIZAR</button></td>
-            </tr>
             <tr v-for="lancamento in lancamentos" :key="lancamento.id" class="hover">
               <td>{{ lancamento.id }}</td>
               <td>{{ lancamento.nome_lancamento }}</td>
