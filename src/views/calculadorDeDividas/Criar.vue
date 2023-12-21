@@ -4,82 +4,86 @@
                 src="../../assets/icons/back-square-svgrepo-com.svg" alt="icone voltar" class="h-[4vh]">Voltar para o inicio
         </RouterLink>
 
-        <div class="flex justify-center">
-            <h1 class="font-[Inter] text-[#EBD7C6] text-[25px] mb-[50px]">Nome do Lançamento</h1>
-        </div>
+        <section class="flex justify-center">
+            <div class="bg-[#EBD7C6] w-[90%] m-[10px] p-[20px] border-2 border-[black]">
 
-        <section class="flex justify-center h-[vh]">
-            <div class="grid grid-cols-[60%_1fr] w-[95%] h-[35vh]">
-                <div class="flex justify-center h-[35vh]">
-                    <div class="flex justify-center overflow-y-auto w-[95%]">
-                        <table class="table w-[80%]">
-                            <thead>
-                                <tr class="bg-[black] text-[#EBD7C6]">
-                                    <th>Nome</th>
-                                    <th>Data</th>
-                                    <th>Valor</th>
-                                    <th>Ação</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-[black] text-[20px]">
-                                <tr>
-                                    <td>Mercado</td>
-                                    <td>09/04/2002</td>
-                                    <td>R$ 498,33</td>
-                                    <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
-                                                alt="botao de excluir"></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Mercado</td>
-                                    <td>09/04/2002</td>
-                                    <td>R$ 498,33</td>
-                                    <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
-                                                alt="botao de excluir"></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Mercado</td>
-                                    <td>09/04/2002</td>
-                                    <td>R$ 498,33</td>
-                                    <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
-                                                alt="botao de excluir"></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Mercado</td>
-                                    <td>09/04/2002</td>
-                                    <td>R$ 498,33</td>
-                                    <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
-                                                alt="botao de excluir"></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Mercado</td>
-                                    <td>09/04/2002</td>
-                                    <td>R$ 498,33</td>
-                                    <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
-                                                alt="botao de excluir"></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Mercado</td>
-                                    <td>09/04/2002</td>
-                                    <td>R$ 498,33</td>
-                                    <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
-                                                alt="botao de excluir"></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Mercado</td>
-                                    <td>09/04/2002</td>
-                                    <td>R$ 498,33</td>
-                                    <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
-                                                alt="botao de excluir"></button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="flex justify-center">
+                    <h1 class="font-[Inter] text-[black] text-[25px] mb-[50px]">Nome do Lançamento</h1>
                 </div>
 
-                <div class="flex flex-col justify-center place-items-center text-[black]">
-                    <h2 class="text-[150%]">Total Inserido</h2>
-                    <h2 class="text-[400%]">R$ 1495,00</h2>
-                    <p>Total Lançamentos: 12</p>
+                <div class="flex justify-center h-[vh]">
+                    <div class="grid grid-cols-[60%_1fr] w-[95%] h-[35vh]">
+                        <div class="flex justify-center h-[35vh]">
+                            <div class="flex justify-center overflow-y-auto w-[95%]">
+                                <table class="table w-[80%] border-2 border-[black]">
+                                    <thead>
+                                        <tr class="bg-[black] text-[#EBD7C6]">
+                                            <th>Nome</th>
+                                            <th>Data</th>
+                                            <th>Valor</th>
+                                            <th>Ação</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-[black] text-[20px]">
+                                        <tr>
+                                            <td>Mercado</td>
+                                            <td>09/04/2002</td>
+                                            <td>R$ 498,33</td>
+                                            <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
+                                                        alt="botao de excluir"></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mercado</td>
+                                            <td>09/04/2002</td>
+                                            <td>R$ 498,33</td>
+                                            <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
+                                                        alt="botao de excluir"></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mercado</td>
+                                            <td>09/04/2002</td>
+                                            <td>R$ 498,33</td>
+                                            <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
+                                                        alt="botao de excluir"></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mercado</td>
+                                            <td>09/04/2002</td>
+                                            <td>R$ 498,33</td>
+                                            <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
+                                                        alt="botao de excluir"></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mercado</td>
+                                            <td>09/04/2002</td>
+                                            <td>R$ 498,33</td>
+                                            <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
+                                                        alt="botao de excluir"></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mercado</td>
+                                            <td>09/04/2002</td>
+                                            <td>R$ 498,33</td>
+                                            <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
+                                                        alt="botao de excluir"></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mercado</td>
+                                            <td>09/04/2002</td>
+                                            <td>R$ 498,33</td>
+                                            <td><button><img src="../../assets/icons/shield-xmark-svgrepo-com (1).svg"
+                                                        alt="botao de excluir"></button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-center place-items-center text-[black]">
+                            <h2 class="text-[150%]">Total Inserido</h2>
+                            <h2 class="text-[400%]">R$ 1495,00</h2>
+                            <p>Total Lançamentos: 12</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -119,4 +123,5 @@
 
 </script>
 
-<style></style>
+<style>
+</style>
